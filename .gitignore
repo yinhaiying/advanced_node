@@ -1,2 +1,1 @@
-# program/node-upload/node_modules
-program/*/node_modules
+/program/*/node_modules
