@@ -1,0 +1,17 @@
+{
+  "name": "node-web-push",
+  "version": "1.0.0",
+  "description": "1. 客户端完成用户订阅请求\r 2. 服务端调用遵从webpush协议的请求，传送消息推送(push message)到推送服务器(service worker)\r 3. 推送服务器将该消息推送至对应的浏览器，用户收到该推送",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "web-push": "^3.4.4"
+  }
+}
