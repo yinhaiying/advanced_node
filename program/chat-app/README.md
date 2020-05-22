@@ -21,7 +21,6 @@ io.on('connection',(socket) => {
     console.log('a user connected');
 })
 ```
-
 2. 客户端初始化socket：
 客户端初始化一个Socket，然后连接服务器(connect)，如果连接成功，这时客户端与服务器端的连接就建立了。
 ```html
@@ -50,7 +49,6 @@ io.on('connection',(socket) => {
       io.sockets.emit('chat',data)
     });
 })
-
 ```
 5. 客户端读取数据
 ```javascript

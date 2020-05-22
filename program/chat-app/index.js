@@ -2,12 +2,12 @@ const express = require('express');
 
 const app = express();
 const socketIo = require('socket.io');
-
-
-
 const server = app.listen('8000',() => {
     console.log('服务器正在8000端口运行');
 });
+
+
+
 // 设置socket.io
 const io = socketIo(server);
 io.on('connection',(socket) => {
